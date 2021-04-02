@@ -8,7 +8,7 @@ const ControlManageBook = (props) => {
 
     const handleDelete = (id) => {
      
-        fetch(`http://localhost:4500/delete/${id}`, {
+        fetch(`https://ancient-springs-78289.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
         .then((res) => res.json())

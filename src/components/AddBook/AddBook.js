@@ -16,7 +16,7 @@ const AddBook = () => {
       productDescription: data.productDescription,
     };
     console.log(productData);
-    fetch("http://localhost:4500/addProduct", {
+    fetch("https://ancient-springs-78289.herokuapp.com/addProduct", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(productData),

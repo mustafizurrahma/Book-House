@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# ASM-BOOK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live link of [Books House](https://book-houses.web.app/).
 
-## Available Scripts
+## How to setup in desktop
+simple download this repository & open this project folder in code editor like VS-Code
+then open this project root file in tarminal & run npm install commend. This will otomatically install all the dependency files in this project. After installation completed, then run npm start. It will show the live project in your browser. 
 
-In the project directory, you can run:
 
-### `npm start`
+### Project Descriptions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- It's a Book Item related simple eCommerce project.
+- Here are some book items on this website. You can buy any product you want just clicking the buy now button
+- When you click one of the book item's buy buttons it will move into the authentication page. There is a Google Sign In Authentication. You have to Authenticate. You can log in with your g-mail id by google authenticate.
+- When you authenticate it will move into the checkout page. There you can show your product item which you clicked before the authentication. Here a checkout button, when you click the checkout button it will save your information and product information in the Database. and redirect your orders page. There you can see your order list which you ordered before. Also, you can see your information like profile, user name, email address.
+- And also you can see your previous orders list by just clicking the Orders button from the navbar if you are not logged in you have to log in first to see your orders information.
+- When you click on the admin button in the navbar, it will move you to the authentication page if you are not logged in. If you logged in, it shows you a dashboard where you can delete all products from the website and post products on the website. If you want to upload, just click Add Product on the Admin page, or if you delete the product just click delete which you want to delete.
+- When you reload your page it will take you in the authentication. you choose to google sign-in.
+- That's all for this project.

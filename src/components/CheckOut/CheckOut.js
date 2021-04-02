@@ -9,7 +9,7 @@ const CheckOut = () => {
   const [product, setProduct] = useState([]);
 
 useEffect(() => {
-  fetch('http://localhost:4500/showbook')
+  fetch('https://ancient-springs-78289.herokuapp.com/showbook')
   .then(res => res.json())
   .then(data => {
     const selectedProduct = data.find((pd => pd._id === pdKey))
@@ -27,7 +27,7 @@ const newProduct = {
 
 const handleOrder = () => {
   const productInfo = {...loggedInUser, ...newProduct}
-  fetch('http://localhost:4500/addOrder', {
+  fetch('https://ancient-springs-78289.herokuapp.com/addOrder', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(productInfo)
