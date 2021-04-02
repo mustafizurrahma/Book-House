@@ -73,7 +73,7 @@ const AddBook = () => {
                       <div className="contact-form">
                         <div className="form">
                           <span className="field-required"></span>
-                          <label for="#">Book Name</label>
+                          <label for="#">Book Description</label>
                           <input
                             name="productDescription"
                             defaultValue="description"
@@ -87,7 +87,7 @@ const AddBook = () => {
                       <div className="contact-form">
                         <div className="form">
                           <span className="field-required"></span>
-                          <label for="#">Book Name</label>
+                          <label for="#">Book Price</label>
                           <input
                             type="text"
                             name="productPrice"
@@ -102,7 +102,7 @@ const AddBook = () => {
                       <div className="contact-form">
                         <div className="form">
                           <span className="field-required"></span>
-                          <label for="#">Book Name</label>
+                          <label for="#">Upload Your Book</label>
                           <input
                             type="file"
                             name="file"
